@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-    time_t t;
+    time_t now;
 
-    time(&t);
-    printf("\n current date/time is : %s",ctime(&t));
+    time(&now);
+    printf("\n current date/time is : %s",ctime(&now));
 
     return EXIT_SUCCESS;
 }
